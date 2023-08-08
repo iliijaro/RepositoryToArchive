@@ -1,0 +1,100 @@
+{
+  "uuid": "15b9921b-d2eb-4e33-a78f-2c72116d0ca6-tr-0-1024",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(270)",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(270)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMaxLengthSearchField"
+    },
+    {
+      "name": "testClass",
+      "value": "OverLimitTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "25",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/25",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckMaxLengthSearchField(270)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckMaxLengthSearchField(270)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can not enter >250 characters to the 'Search' field\n",
+  "steps": [
+    {
+      "name": "CheckMaxLengthSearchField(270)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1ab1e566b6804e3385f0aa73e76aca62-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691522034061,
+      "stop": 1691522046148
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "270"
+    }
+  ],
+  "start": 1691522034061,
+  "stop": 1691522046149
+}

@@ -1,0 +1,103 @@
+{
+  "uuid": "d8d016b5-435f-48fb-a276-8297cf467c53-tr-0-1021",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckInvalidCredentials"
+    },
+    {
+      "name": "testClass",
+      "value": "InvalidCredentialsTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Random User"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckInvalidCredentials",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.CheckTheLoginAsRandomUser() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 54\n   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 21\n"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can not log in with invalid credentials\n",
+  "steps": [
+    {
+      "name": "CheckInvalidCredentials",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.CheckTheLoginAsRandomUser() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 54\n   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 21\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "1b8dc40a34c84322b09133d5e54a99f8-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7941ed280f3a4b74ab33d6f0db26162f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447490897,
+      "stop": 1691447494932
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691447490897,
+  "stop": 1691447494932
+}

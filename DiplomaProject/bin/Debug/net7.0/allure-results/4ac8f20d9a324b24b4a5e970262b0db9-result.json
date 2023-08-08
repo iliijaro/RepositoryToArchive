@@ -1,0 +1,91 @@
+{
+  "uuid": "eed213a4-4d2f-4fa3-8f01-289d53ce4dd4-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "fullName": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.SmokeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SuccessfulLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "SuccessfulLoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke test"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "SuccessfulLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SuccessfulLogIn"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can successfully log in \n",
+  "steps": [
+    {
+      "name": "SuccessfulLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d527c738d772405d957a03849a4743eb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691349399717,
+      "stop": 1691349414290
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691349399715,
+  "stop": 1691349414294
+}

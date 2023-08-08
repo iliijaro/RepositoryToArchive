@@ -1,0 +1,44 @@
+{
+  "uuid": "473ded66-e04c-4f18-aa9d-beb9be6856c9-tc-0-1014",
+  "name": "TestProject1.Tests.UI.PositiveTests.MilestoneCreationTest.NewMilestoneCreation",
+  "children": [
+    "2b35414e-2ada-4700-81b3-5725212d153c-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691522116882,
+      "stop": 1691522116882
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691522116882,
+      "stop": 1691522116882
+    }
+  ],
+  "links": [],
+  "start": 1691522110498,
+  "stop": 1691522116883
+}

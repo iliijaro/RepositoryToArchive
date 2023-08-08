@@ -1,0 +1,44 @@
+{
+  "uuid": "81c204c3-d613-4b38-89ca-7fc7e7c37f6e-tc-0-1000",
+  "name": "TestProject1.Tests.UI.PositiveTests.FileLoadedTest.CheckThatFileIsLoaded",
+  "children": [
+    "84965045-e15d-4b97-9012-08f046177071-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691450530961,
+      "stop": 1691450530961
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691450530961,
+      "stop": 1691450530961
+    }
+  ],
+  "links": [],
+  "start": 1691450522104,
+  "stop": 1691450531002
+}

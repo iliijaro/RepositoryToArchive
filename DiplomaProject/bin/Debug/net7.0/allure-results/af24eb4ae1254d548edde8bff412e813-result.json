@@ -1,0 +1,108 @@
+{
+  "uuid": "c5ba0324-3756-4119-a2a9-11fec43d818c-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ReproduceBugWithWrongWindow"
+    },
+    {
+      "name": "testClass",
+      "value": "BugReproducingTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "KAN-2",
+      "url": "KAN-2",
+      "type": "issue"
+    },
+    {
+      "name": "22",
+      "url": "22",
+      "type": "tms"
+    }
+  ],
+  "name": "ReproduceBugWithWrongWindow",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  'Push Defect Window' is not opened! Something went wrong!\n  Expected: True\n  But was:  False\n",
+    "trace": "   at TestProject1.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/BugReproducingTest.cs:line 25\n"
+  },
+  "stage": "finished",
+  "description": "Test case to reproduce the bug with wrong expected window to display\n",
+  "steps": [
+    {
+      "name": "ReproduceBugWithWrongWindow",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  'Push Defect Window' is not opened! Something went wrong!\n  Expected: True\n  But was:  False\n",
+        "trace": "   at TestProject1.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/BugReproducingTest.cs:line 25\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "e35b4549a36d46189396fe5c40940d5f-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3290b9a836fb4adcb026de308cbca6f4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691340710217,
+      "stop": 1691340717252
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691340710217,
+  "stop": 1691340717257
+}

@@ -1,0 +1,12 @@
+2023-08-08 00:45:16.1711 Fatal Automation Test starts
+2023-08-08 00:45:16.1711 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 00:45:16.1711 Fatal Pages initialization
+2023-08-08 00:45:16.1711 Fatal Opening the TestRail Home page
+2023-08-08 00:45:19.3380 Fatal Username is set
+2023-08-08 00:45:19.4117 Fatal Password is set
+2023-08-08 00:45:19.4776 Fatal Click Login Button
+2023-08-08 00:45:21.4544 Fatal Dashboard page opening
+2023-08-08 00:45:21.7997 Fatal Dashboard page is opened
+2023-08-08 00:45:21.8216 Fatal Sending text to the search field
+2023-08-08 00:45:27.8500 Fatal Error Window is displayed
+2023-08-08 00:45:27.8664 Fatal Browser closed

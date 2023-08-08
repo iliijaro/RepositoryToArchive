@@ -1,0 +1,100 @@
+{
+  "uuid": "60ddc63e-3e30-4646-b059-5e114d93b3d9-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.FileLoadedTest.CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.FileLoadedTest.CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatFileIsLoaded"
+    },
+    {
+      "name": "testClass",
+      "value": "FileLoadedTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "24",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/24",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckThatFileIsLoaded(\"ImageTest.PNG\")"
+  },
+  "stage": "finished",
+  "description": "Test case to check that the screenshot is loaded to TestCase\n",
+  "steps": [
+    {
+      "name": "CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1b70b27b716249b8a34fbf33fe316546-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691451976809,
+      "stop": 1691451985592
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "ImageTest.PNG"
+    }
+  ],
+  "start": 1691451976809,
+  "stop": 1691451985598
+}

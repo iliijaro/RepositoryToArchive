@@ -1,0 +1,44 @@
+{
+  "uuid": "06a93ae6-a8f5-4e7c-b07b-0d2417f0ddd0-tc-0-1000",
+  "name": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "children": [
+    "7a0ff9a0-10ed-4f67-ba2a-504f03498656-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691443300379,
+      "stop": 1691443300379
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691443300379,
+      "stop": 1691443300379
+    }
+  ],
+  "links": [],
+  "start": 1691443294564,
+  "stop": 1691443300455
+}

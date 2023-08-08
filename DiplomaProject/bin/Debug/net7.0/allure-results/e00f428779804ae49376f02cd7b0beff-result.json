@@ -1,0 +1,103 @@
+{
+  "uuid": "8e8eacba-a7f5-4f2b-95fd-8e5a2ba7464c-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckInvalidCredentials"
+    },
+    {
+      "name": "testClass",
+      "value": "InvalidCredentialsTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Random User"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckInvalidCredentials",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.<CheckInvalidCredentials>b__0_0() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 25\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\n   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 23\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can not log in with invalid credentials\n",
+  "steps": [
+    {
+      "name": "CheckInvalidCredentials",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.<CheckInvalidCredentials>b__0_0() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 25\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\n   at TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/InvalidCredentialsTest.cs:line 23\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "23208069c89741dfb10ecacd89501444-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b16bd258d9294bcb9616df769c50281d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691446752515,
+      "stop": 1691446757810
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691446752514,
+  "stop": 1691446757815
+}

@@ -1,0 +1,12 @@
+2023-08-08 00:46:06.9610 Fatal Automation Test starts
+2023-08-08 00:46:06.9610 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 00:46:06.9610 Fatal Pages initialization
+2023-08-08 00:46:06.9610 Fatal Opening the TestRail Home page
+2023-08-08 00:46:10.1239 Fatal Username is set
+2023-08-08 00:46:10.1941 Fatal Password is set
+2023-08-08 00:46:10.2580 Fatal Click Login Button
+2023-08-08 00:46:12.7825 Fatal Test cases and suits page opening
+2023-08-08 00:46:13.2532 Fatal Test cases and suits page is opened
+2023-08-08 00:46:14.8046 Fatal 'Add Subsection' button is clicked
+2023-08-08 00:46:14.9007 Fatal 'Add Subsection' dialogue window is displayed
+2023-08-08 00:46:14.9257 Fatal Browser closed

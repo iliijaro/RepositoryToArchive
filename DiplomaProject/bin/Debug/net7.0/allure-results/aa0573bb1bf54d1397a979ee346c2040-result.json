@@ -1,0 +1,94 @@
+{
+  "uuid": "515fc9f7-e68e-4e3a-83fb-77f505f4766f-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "fullName": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.SmokeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SuccessfulLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "SuccessfulLoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke test"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "SuccessfulLogIn",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at TestProject1.BaseEntities.BaseTest.Setup() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 25\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--TearDown\n   at TestProject1.BaseEntities.BaseTest.TearDown() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 54\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nTearDown TearDown method failed\nTest case to check that user can successfully log in \n",
+  "steps": [
+    {
+      "name": "SuccessfulLogIn skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at TestProject1.BaseEntities.BaseTest.Setup() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 25\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--TearDown\n   at TestProject1.BaseEntities.BaseTest.TearDown() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 54\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f790dcfa7d2341619a228ce52a93c6df-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691347818002,
+      "stop": 1691347818027
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691347818000,
+  "stop": 1691347818035
+}

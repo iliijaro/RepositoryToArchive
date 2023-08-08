@@ -1,0 +1,95 @@
+{
+  "uuid": "4d4c2b23-2901-4b27-af20-91e17b076e22-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckInvalidCredentials"
+    },
+    {
+      "name": "testClass",
+      "value": "InvalidCredentialsTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Random User"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckInvalidCredentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckInvalidCredentials"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can not log in with invalid credentials\n",
+  "steps": [
+    {
+      "name": "CheckInvalidCredentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6c2f21eb0d3a4ba082cf966514d27c70-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447051395,
+      "stop": 1691447057639
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691447051394,
+  "stop": 1691447057643
+}

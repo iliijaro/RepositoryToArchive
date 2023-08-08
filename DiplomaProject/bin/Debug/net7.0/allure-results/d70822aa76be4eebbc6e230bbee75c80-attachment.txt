@@ -1,0 +1,12 @@
+2023-08-08 00:46:29.1023 Fatal Automation Test starts
+2023-08-08 00:46:29.1023 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 00:46:29.1023 Fatal Pages initialization
+2023-08-08 00:46:29.1023 Fatal Opening the TestRail Home page
+2023-08-08 00:46:32.4246 Fatal Username is set
+2023-08-08 00:46:32.4971 Fatal Password is set
+2023-08-08 00:46:32.5588 Fatal Click Login Button
+2023-08-08 00:46:33.8196 Fatal Test cases and suits page opening
+2023-08-08 00:46:34.3306 Fatal Test cases and suits page is opened
+2023-08-08 00:46:34.4255 Fatal Hover to reference of the Test Case
+2023-08-08 00:46:37.2493 Fatal Jira pop-up is displayed
+2023-08-08 00:46:37.2641 Fatal Browser closed

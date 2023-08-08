@@ -1,0 +1,99 @@
+{
+  "uuid": "2ae8706c-73d3-45cd-93ce-25567949a5d5-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "fullName": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.SmokeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SuccessfulLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "SuccessfulLoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke test"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "SuccessfulLogIn",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at TestProject1.Steps.NavigationSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/NavigationSteps.cs:line 13\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 26\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can successfully log in \n",
+  "steps": [
+    {
+      "name": "SuccessfulLogIn",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at TestProject1.Steps.NavigationSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/NavigationSteps.cs:line 13\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 26\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "62e73b83ba344b8a819ccc1b3f07bd84-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8d00160d1ea0423cb851b7072b81f5a2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691446281836,
+      "stop": 1691446285739
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691446281835,
+  "stop": 1691446285743
+}

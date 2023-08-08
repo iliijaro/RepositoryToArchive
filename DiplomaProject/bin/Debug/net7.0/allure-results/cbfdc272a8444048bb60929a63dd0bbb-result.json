@@ -1,0 +1,99 @@
+{
+  "uuid": "604b7fda-ae4c-4fe2-bb48-6fafe024750b-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "fullName": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.SmokeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SuccessfulLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "SuccessfulLoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke test"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "SuccessfulLogIn",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : text cannot be null (Parameter 'text')",
+    "trace": "   at OpenQA.Selenium.WebElement.SendKeys(String text)\n   at TestProject1.Wrappers.BaseElement.Write(String message) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseElement.cs:line 23\n   at TestProject1.Pages.LoginPage.SetUserName(String name) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 44\n   at TestProject1.Pages.LoginPage.NewLogIn(User1 user) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 91\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 24\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can successfully log in \n",
+  "steps": [
+    {
+      "name": "SuccessfulLogIn",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : text cannot be null (Parameter 'text')",
+        "trace": "   at OpenQA.Selenium.WebElement.SendKeys(String text)\n   at TestProject1.Wrappers.BaseElement.Write(String message) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseElement.cs:line 23\n   at TestProject1.Pages.LoginPage.SetUserName(String name) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 44\n   at TestProject1.Pages.LoginPage.NewLogIn(User1 user) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 91\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 24\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "3afbc74d3ef0495996a920676f19bc9d-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3f85b60631fb48188e9d9a9f07b3dea6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691445805733,
+      "stop": 1691445809986
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691445805732,
+  "stop": 1691445809990
+}

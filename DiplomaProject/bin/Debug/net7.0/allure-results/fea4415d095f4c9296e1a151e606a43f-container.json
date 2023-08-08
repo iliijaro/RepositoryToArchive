@@ -1,0 +1,44 @@
+{
+  "uuid": "256e2f3e-7fcc-4dc6-9c11-b0ca85a58723-tc-0-1022",
+  "name": "TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(270)",
+  "children": [
+    "02f672e5-6bcb-4276-bdea-22b107c34c19-tr-0-1023"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447500838,
+      "stop": 1691447500838
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447500838,
+      "stop": 1691447500838
+    }
+  ],
+  "links": [],
+  "start": 1691447496692,
+  "stop": 1691447500840
+}

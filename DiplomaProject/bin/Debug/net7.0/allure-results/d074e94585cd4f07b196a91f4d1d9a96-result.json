@@ -1,0 +1,103 @@
+{
+  "uuid": "9c25f64c-8b92-47db-a219-9db53551058d-tr-0-1008",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatDialogueWindowIsOpened"
+    },
+    {
+      "name": "testClass",
+      "value": "DialogueWindowTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "trivial"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "38",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/38",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatDialogueWindowIsOpened",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/DialogueWindowTest.cs:line 18\n"
+  },
+  "stage": "finished",
+  "description": "Test case to check that 'Subject' Dialogue Window is opened\n",
+  "steps": [
+    {
+      "name": "CheckThatDialogueWindowIsOpened",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/DialogueWindowTest.cs:line 18\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "8e950574ffd245088a74b3afb56e2cb4-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1cecec8c07e3471693d152c63dd06c48-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447521665,
+      "stop": 1691447525680
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691447521665,
+  "stop": 1691447525680
+}

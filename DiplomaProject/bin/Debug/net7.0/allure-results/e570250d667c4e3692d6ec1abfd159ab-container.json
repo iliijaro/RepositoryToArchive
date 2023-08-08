@@ -1,0 +1,44 @@
+{
+  "uuid": "24b401f5-3a88-4d49-a00f-ee5c0b001cd0-tc-0-1000",
+  "name": "TestProject1.Tests.UI.PositiveTests.FileLoadedTest.CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+  "children": [
+    "60ddc63e-3e30-4646-b059-5e114d93b3d9-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691451985589,
+      "stop": 1691451985589
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691451985589,
+      "stop": 1691451985589
+    }
+  ],
+  "links": [],
+  "start": 1691451976806,
+  "stop": 1691451985631
+}

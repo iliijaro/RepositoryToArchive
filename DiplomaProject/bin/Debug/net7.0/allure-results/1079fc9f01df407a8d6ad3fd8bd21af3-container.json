@@ -1,0 +1,44 @@
+{
+  "uuid": "d3754d8c-6339-4173-bb8c-f8bba3a1632a-tc-0-1002",
+  "name": "TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(1)",
+  "children": [
+    "0c6c5937-cd08-477c-81cb-67d85fea5a56-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691448341259,
+      "stop": 1691448341259
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691448341259,
+      "stop": 1691448341259
+    }
+  ],
+  "links": [],
+  "start": 1691448329818,
+  "stop": 1691448341260
+}

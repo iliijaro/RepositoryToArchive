@@ -1,0 +1,10 @@
+2023-08-06 21:04:36.3085 Error Driver, Actions, Wait and Allure init
+2023-08-06 21:04:36.3297 Fatal Driver, Actions, Wait and Allure init
+2023-08-06 21:04:36.3323 Error Pages initialization
+2023-08-06 21:04:36.3323 Fatal Pages initialization
+2023-08-06 21:04:36.3466 Error Opening the TestRail Home page
+2023-08-06 21:04:36.3466 Fatal Opening the TestRail Home page
+2023-08-06 21:04:41.3199 Error Screenshot done
+2023-08-06 21:04:41.3199 Fatal Screenshot done
+2023-08-06 21:04:41.3199 Error Browser closed
+2023-08-06 21:04:41.3199 Fatal Browser closed

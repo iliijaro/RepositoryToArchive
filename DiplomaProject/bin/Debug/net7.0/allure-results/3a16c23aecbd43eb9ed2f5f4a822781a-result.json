@@ -1,0 +1,108 @@
+{
+  "uuid": "02f672e5-6bcb-4276-bdea-22b107c34c19-tr-0-1023",
+  "historyId": "TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(270)",
+  "fullName": "TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(270)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.NegativeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMaxLengthSearchField"
+    },
+    {
+      "name": "testClass",
+      "value": "OverLimitTest"
+    },
+    {
+      "name": "tag",
+      "value": "Negative cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "25",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/25",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckMaxLengthSearchField(270)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(Int32 charAmount) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/OverLimitTest.cs:line 22\n"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can not enter >250 characters to the 'Search' field\n",
+  "steps": [
+    {
+      "name": "CheckMaxLengthSearchField(270)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.NegativeTests.OverLimitTest.CheckMaxLengthSearchField(Int32 charAmount) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/NegativeTests/OverLimitTest.cs:line 22\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "d75d2d79b0c44c61b8fb46c9c6deabf6-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3a7f92517f6f46eebd3a38459b096d84-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447496692,
+      "stop": 1691447500838
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "270"
+    }
+  ],
+  "start": 1691447496692,
+  "stop": 1691447500839
+}

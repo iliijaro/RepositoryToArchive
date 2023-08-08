@@ -1,0 +1,44 @@
+{
+  "uuid": "8b6b1bcf-bb1c-42dd-855b-1ef6481aa451-tc-0-1020",
+  "name": "TestProject1.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "children": [
+    "d8d016b5-435f-48fb-a276-8297cf467c53-tr-0-1021"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447494932,
+      "stop": 1691447494932
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447494932,
+      "stop": 1691447494932
+    }
+  ],
+  "links": [],
+  "start": 1691447490897,
+  "stop": 1691447494933
+}

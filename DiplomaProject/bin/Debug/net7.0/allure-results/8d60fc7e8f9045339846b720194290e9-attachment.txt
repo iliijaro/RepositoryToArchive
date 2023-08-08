@@ -1,0 +1,17 @@
+2023-08-08 00:31:53.9738 Fatal Automation Test starts
+2023-08-08 00:31:53.9738 Fatal Driver, Actions, Wait and Allure init
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+Connection refused (localhost:65234)
+2023-08-08 00:31:55.7870 Fatal Pages initialization
+2023-08-08 00:31:55.7870 Fatal Opening the TestRail Home page
+2023-08-08 00:31:59.0746 Fatal Login Page opening
+2023-08-08 00:31:59.3612 Fatal Login Page is opened
+2023-08-08 00:31:59.3631 Fatal Test Failed : Screenshot done
+2023-08-08 00:31:59.7461 Fatal Browser closed

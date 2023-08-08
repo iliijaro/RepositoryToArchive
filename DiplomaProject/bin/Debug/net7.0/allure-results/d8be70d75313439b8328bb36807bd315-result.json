@@ -1,0 +1,108 @@
+{
+  "uuid": "6bdf1be3-b5b0-4650-8442-daae6eadd6a3-tr-0-1016",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(50)",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(50)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatTestCaseIsDeleted"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCaseDeleteTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "28",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/28",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatTestCaseIsDeleted(50)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/TestCaseDeleteTest.cs:line 19\n"
+  },
+  "stage": "finished",
+  "description": "Test case to check that the TestCase is deleted\n",
+  "steps": [
+    {
+      "name": "CheckThatTestCaseIsDeleted(50)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.LoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 17\n   at TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/TestCaseDeleteTest.cs:line 19\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "0b0fc0af7d0d4708ad0a6cfbe94cbcb1-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "51fad3c77c5a4e74b739d681552a79a4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447545597,
+      "stop": 1691447549780
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "50"
+    }
+  ],
+  "start": 1691447545597,
+  "stop": 1691447549781
+}

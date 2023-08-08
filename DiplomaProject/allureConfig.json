@@ -1,0 +1,10 @@
+{
+  "allure": {
+    "directory": "allure-results",
+    "links": [
+      "{links}",
+      "https://ilyayaroshdiploma.atlassian.net/browse/{issue}",
+      "https://yarashdiploma.testrail.io/index.php?/cases/view/{tms}"
+    ]
+  }
+}

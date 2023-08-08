@@ -1,0 +1,44 @@
+{
+  "uuid": "087428b2-ae0e-4e74-b215-d0df27ffb781-tc-0-1018",
+  "name": "TestProject1.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow",
+  "children": [
+    "6fdf2776-21c2-44e5-a3e5-ec1b51c25098-tr-0-1019"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447488956,
+      "stop": 1691447488956
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447488956,
+      "stop": 1691447488956
+    }
+  ],
+  "links": [],
+  "start": 1691447480634,
+  "stop": 1691447488996
+}

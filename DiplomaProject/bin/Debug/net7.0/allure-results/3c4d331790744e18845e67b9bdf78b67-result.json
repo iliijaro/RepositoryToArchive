@@ -1,0 +1,108 @@
+{
+  "uuid": "9c5c2673-97e7-495e-9493-547942853f2d-tr-0-1004",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TitleBoundaryValues"
+    },
+    {
+      "name": "testClass",
+      "value": "BoundaryValuesTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "41",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/41",
+      "type": "tms"
+    }
+  ],
+  "name": "TitleBoundaryValues(249)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a class=\"link\" href=\"javascript:void(0)\" onclick=\"this.blur(); App.Cases.add(1); return false;\">...</a> is not clickable at point (43, 886). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 10000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; position: fixed;\"></div>\n  (Session info: chrome=115.0.5790.170)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TestProject1.Wrappers.BaseElement.Click() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseElement.cs:line 33\n   at TestProject1.Pages.TestCasesPage.ClickAddCaseLink() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 57\n   at TestProject1.Pages.TestCasesPage.CreateTestCaseByTitle(String name) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 77\n   at TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(Int32 n) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/BoundaryValuesTest.cs:line 24\n   at InvokeStub_BoundaryValuesTest.TitleBoundaryValues(Object, Object, IntPtr*)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test Case title boundary values\n",
+  "steps": [
+    {
+      "name": "TitleBoundaryValues(249)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a class=\"link\" href=\"javascript:void(0)\" onclick=\"this.blur(); App.Cases.add(1); return false;\">...</a> is not clickable at point (43, 886). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 10000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; position: fixed;\"></div>\n  (Session info: chrome=115.0.5790.170)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TestProject1.Wrappers.BaseElement.Click() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseElement.cs:line 33\n   at TestProject1.Pages.TestCasesPage.ClickAddCaseLink() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 57\n   at TestProject1.Pages.TestCasesPage.CreateTestCaseByTitle(String name) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 77\n   at TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(Int32 n) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/BoundaryValuesTest.cs:line 24\n   at InvokeStub_BoundaryValuesTest.TitleBoundaryValues(Object, Object, IntPtr*)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "350416ec847c4e10ac310ad4563c7712-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1b722a11867c4218ba68c180a63ba6fd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691448341261,
+      "stop": 1691448353091
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "249"
+    }
+  ],
+  "start": 1691448341261,
+  "stop": 1691448353091
+}

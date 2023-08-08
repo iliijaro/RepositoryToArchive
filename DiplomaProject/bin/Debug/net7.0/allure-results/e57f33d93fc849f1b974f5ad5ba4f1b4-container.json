@@ -1,0 +1,48 @@
+{
+  "uuid": "0c65ffac-2b97-4fab-aa66-48fe6e43dcaf-tc-0-1000",
+  "name": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "children": [
+    "515fc9f7-e68e-4e3a-83fb-77f505f4766f-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at TestProject1.BaseEntities.BaseTest.Setup() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 25\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--TearDown\n   at TestProject1.BaseEntities.BaseTest.TearDown() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 54\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691347818024,
+      "stop": 1691347818024
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at TestProject1.BaseEntities.BaseTest.Setup() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 25\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--TearDown\n   at TestProject1.BaseEntities.BaseTest.TearDown() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/BaseEntities/BaseTest.cs:line 54\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691347818025,
+      "stop": 1691347818025
+    }
+  ],
+  "links": [],
+  "start": 1691347817993,
+  "stop": 1691347818077
+}

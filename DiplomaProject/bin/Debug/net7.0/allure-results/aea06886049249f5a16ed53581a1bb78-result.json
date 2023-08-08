@@ -1,0 +1,100 @@
+{
+  "uuid": "49f40485-bcda-4b2d-9969-049e5d7e147b-tr-0-1004",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TitleBoundaryValues"
+    },
+    {
+      "name": "testClass",
+      "value": "BoundaryValuesTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "41",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/41",
+      "type": "tms"
+    }
+  ],
+  "name": "TitleBoundaryValues(249)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TitleBoundaryValues(249)"
+  },
+  "stage": "finished",
+  "description": "Test Case title boundary values\n",
+  "steps": [
+    {
+      "name": "TitleBoundaryValues(249)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b0b7356af6e442db8ad74f5b612bc43f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691522058287,
+      "stop": 1691522068557
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "249"
+    }
+  ],
+  "start": 1691522058287,
+  "stop": 1691522068557
+}

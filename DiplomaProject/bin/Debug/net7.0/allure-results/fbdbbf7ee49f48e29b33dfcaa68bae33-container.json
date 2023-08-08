@@ -1,0 +1,44 @@
+{
+  "uuid": "03dce1ff-d28a-4dc2-899a-0895878a38ae-tc-0-1016",
+  "name": "TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(49)",
+  "children": [
+    "33cfb8c0-ec94-40b0-a9b5-daeca39d3733-tr-0-1017"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691522126040,
+      "stop": 1691522126040
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691522126040,
+      "stop": 1691522126040
+    }
+  ],
+  "links": [],
+  "start": 1691522118724,
+  "stop": 1691522126041
+}

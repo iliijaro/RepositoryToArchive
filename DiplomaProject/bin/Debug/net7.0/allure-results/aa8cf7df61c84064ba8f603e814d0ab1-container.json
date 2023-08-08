@@ -1,0 +1,44 @@
+{
+  "uuid": "487a04f5-092a-4e1d-b861-46495cfcb6ea-tc-0-1011",
+  "name": "TestProject1.Tests.UI.PositiveTests.JiraPopUpDisplayedTest.JiraPopupShows",
+  "children": [
+    "c35d379c-4ff5-4bd1-87b7-c918a6a98cf3-tr-0-1012"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691448397427,
+      "stop": 1691448397427
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691448397427,
+      "stop": 1691448397427
+    }
+  ],
+  "links": [],
+  "start": 1691448389102,
+  "stop": 1691448397428
+}

@@ -1,0 +1,108 @@
+{
+  "uuid": "33cfb8c0-ec94-40b0-a9b5-daeca39d3733-tr-0-1017",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(49)",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(49)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatTestCaseIsDeleted"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCaseDeleteTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "28",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/28",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatTestCaseIsDeleted(49)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@value='49' and @type='checkbox']\"}\n  (Session info: chrome=115.0.5790.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at TestProject1.Pages.TestCasesPage.FindTestCaseById(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 106\n   at TestProject1.Pages.TestCasesPage.DeleteTestCaseById(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 111\n   at TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/TestCaseDeleteTest.cs:line 20\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that the TestCase is deleted\n",
+  "steps": [
+    {
+      "name": "CheckThatTestCaseIsDeleted(49)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@value='49' and @type='checkbox']\"}\n  (Session info: chrome=115.0.5790.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at TestProject1.Pages.TestCasesPage.FindTestCaseById(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 106\n   at TestProject1.Pages.TestCasesPage.DeleteTestCaseById(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/TestCasesPage.cs:line 111\n   at TestProject1.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(Int32 id) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/PositiveTests/TestCaseDeleteTest.cs:line 20\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "f9ef3a47da2f449fa4f445850956b5d1-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2a741bf49105432182d21e7f7dad6d39-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691522118724,
+      "stop": 1691522126040
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "49"
+    }
+  ],
+  "start": 1691522118724,
+  "stop": 1691522126041
+}

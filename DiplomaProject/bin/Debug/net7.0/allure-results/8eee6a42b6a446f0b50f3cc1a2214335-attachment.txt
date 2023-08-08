@@ -1,0 +1,17 @@
+2023-08-08 00:35:25.5758 Fatal Automation Test starts
+2023-08-08 00:35:25.5958 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 00:35:25.5988 Fatal Pages initialization
+2023-08-08 00:35:25.6145 Fatal Opening the TestRail Home page
+2023-08-08 00:35:28.9125 Fatal Login Page opening
+2023-08-08 00:35:29.3246 Fatal Login Page is opened
+2023-08-08 00:35:29.3558 Fatal Username is set
+2023-08-08 00:35:29.4265 Fatal Password is set
+2023-08-08 00:35:29.4907 Fatal Click Login Button
+2023-08-08 00:35:30.8097 Fatal Test cases and suits page opening
+2023-08-08 00:35:31.3015 Fatal Test cases and suits page is opened
+2023-08-08 00:35:31.8947 Fatal Test Case creation with Title only
+2023-08-08 00:35:31.8947 Fatal 'Add Test Case' link button is clicked
+2023-08-08 00:35:32.0708 Fatal Send text to the Test Case title field
+2023-08-08 00:35:32.1169 Fatal Submit button is clicked
+2023-08-08 00:35:34.2059 Fatal Getting the last Test Case ID
+2023-08-08 00:35:34.2554 Fatal Browser closed

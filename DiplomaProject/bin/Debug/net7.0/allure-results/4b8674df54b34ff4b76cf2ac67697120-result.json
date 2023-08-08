@@ -1,0 +1,95 @@
+{
+  "uuid": "7c15bd45-5e7d-464c-bc7a-8635149ee7ae-tr-0-1013",
+  "historyId": "TestProject1.Tests.UI.PositiveTests.JiraPopUpDisplayedTest.JiraPopupShows",
+  "fullName": "TestProject1.Tests.UI.PositiveTests.JiraPopUpDisplayedTest.JiraPopupShows",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "JiraPopupShows"
+    },
+    {
+      "name": "testClass",
+      "value": "JiraPopUpDisplayedTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "18",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/18",
+      "type": "tms"
+    }
+  ],
+  "name": "JiraPopupShows",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "JiraPopupShows"
+  },
+  "stage": "finished",
+  "description": "Test case to check the Jira pop-up\n",
+  "steps": [
+    {
+      "name": "JiraPopupShows",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3a69c345262849b49faed78d522ed04e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691522100318,
+      "stop": 1691522108756
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691522100318,
+  "stop": 1691522108757
+}

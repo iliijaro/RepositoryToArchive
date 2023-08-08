@@ -1,0 +1,13 @@
+2023-08-08 21:15:10.4983 Fatal Automation Test starts
+2023-08-08 21:15:10.4984 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 21:15:10.4984 Fatal Pages initialization
+2023-08-08 21:15:10.4984 Fatal Opening the TestRail Login page
+2023-08-08 21:15:13.6369 Fatal Username is set
+2023-08-08 21:15:13.7076 Fatal Password is set
+2023-08-08 21:15:13.7748 Fatal Click Login Button
+2023-08-08 21:15:14.9027 Fatal Milestones Page opening
+2023-08-08 21:15:15.3295 Fatal Milestones Page is opened
+2023-08-08 21:15:15.3520 Fatal Random Milestone creating
+2023-08-08 21:15:15.3520 Fatal Add Milestone button is clicked
+2023-08-08 21:15:16.7706 Fatal Milestone created successful message is displayed
+2023-08-08 21:15:16.7813 Fatal Browser closed

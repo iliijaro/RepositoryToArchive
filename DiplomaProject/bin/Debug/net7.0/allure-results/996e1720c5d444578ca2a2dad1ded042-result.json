@@ -1,0 +1,99 @@
+{
+  "uuid": "00537621-98e2-4a43-a67d-d5d25d04ce92-tr-0-1001",
+  "historyId": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "fullName": "TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1.Tests.UI.SmokeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SuccessfulLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "SuccessfulLoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke test"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "suite",
+      "value": "Negative Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "23",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/23",
+      "type": "tms"
+    }
+  ],
+  "name": "SuccessfulLogIn",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.CheckTheLoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 28\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 27\n"
+  },
+  "stage": "finished",
+  "description": "Test case to check that user can successfully log in \n",
+  "steps": [
+    {
+      "name": "SuccessfulLogIn",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot access a disposed object.\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at TestProject1.Core.WaitService.GetVisibleElement(By by) in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Core/WaitService.cs:line 23\n   at TestProject1.Pages.LoginPage.IsPageOpened() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 37\n   at TestProject1.Pages.LoginPage.OpenPage() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Pages/LoginPage.cs:line 22\n   at TestProject1.Steps.LoginSteps.CheckTheLoginAsAdmin() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Steps/LoginSteps.cs:line 28\n   at TestProject1.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn() in /Users/ilyayarosh/RiderProjects/TestSolution/Solution1/TestProject1/Tests/UI/SmokeTests/SuccessfulLoginTest.cs:line 27\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "0c53e48b82364effa1f197e71fd5ceca-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2ec6a19172c248d7a599dd60f64ba5fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691447551567,
+      "stop": 1691447556535
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691447551567,
+  "stop": 1691447556535
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "dc0f4f8e-b418-4308-9c0d-2aedd4624273-tc-0-1000",
+  "name": "TestProject1.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "children": [
+    "fc5bf641-4c49-427d-84ae-fac21a023394-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447701225,
+      "stop": 1691447701225
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691447701226,
+      "stop": 1691447701226
+    }
+  ],
+  "links": [],
+  "start": 1691447695050,
+  "stop": 1691447701272
+}

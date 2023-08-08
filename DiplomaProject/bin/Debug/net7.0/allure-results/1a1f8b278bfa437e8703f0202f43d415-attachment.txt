@@ -1,0 +1,17 @@
+2023-08-08 00:31:20.7918 Fatal Automation Test starts
+2023-08-08 00:31:20.8098 Fatal Driver, Actions, Wait and Allure init
+2023-08-08 00:31:20.8123 Fatal Pages initialization
+2023-08-08 00:31:20.8258 Fatal Opening the TestRail Home page
+2023-08-08 00:31:25.6388 Fatal Login Page opening
+2023-08-08 00:31:25.9495 Fatal Login Page is opened
+2023-08-08 00:31:25.9818 Fatal Username is set
+2023-08-08 00:31:26.0526 Fatal Password is set
+2023-08-08 00:31:26.1147 Fatal Click Login Button
+2023-08-08 00:31:27.3987 Fatal Test cases and suits page opening
+2023-08-08 00:31:27.9484 Fatal Test cases and suits page is opened
+2023-08-08 00:31:28.0674 Fatal Hotkey tapped
+2023-08-08 00:31:28.2614 Fatal 'Open Push Defect' dialogue window is displayed
+no such element: Unable to locate element: {"method":"css selector","selector":"#pushDefectDialog"}
+  (Session info: chrome=115.0.5790.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2023-08-08 00:31:28.3132 Fatal Test Failed : Screenshot done
+2023-08-08 00:31:28.7580 Fatal Browser closed
