@@ -829,3 +829,16 @@
 2023-08-08 21:45:27.2632 Fatal Click Login Button
 2023-08-08 21:45:28.6560 Fatal Dashboard page is opened
 2023-08-08 21:45:28.6836 Fatal Browser closed
+2023-08-09 00:40:10.6166 Fatal Automation Test starts
+2023-08-09 00:40:10.6409 Fatal Driver, Actions, Wait and Allure init
+2023-08-09 00:40:10.6440 Fatal Pages initialization
+2023-08-09 00:40:10.6563 Fatal Opening the TestRail Login page
+2023-08-09 00:40:14.6134 Fatal Username is set
+2023-08-09 00:40:14.7198 Fatal Password is set
+2023-08-09 00:40:14.7765 Fatal Click Login Button
+2023-08-09 00:40:16.3514 Fatal Test cases and suits page opening
+2023-08-09 00:40:16.8914 Fatal Test cases and suits page is opened
+2023-08-09 00:40:16.9771 Fatal Hotkey tapped
+2023-08-09 00:40:17.1891 Fatal 'Open Push Defect' dialogue window is displayed
+2023-08-09 00:40:17.2429 Fatal Test Failed : Screenshot done
+2023-08-09 00:40:17.6654 Fatal Browser closed
