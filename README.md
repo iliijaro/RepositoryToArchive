@@ -22,8 +22,8 @@ QA Сhecklist for TestRail website testing:
    
 **API Tests:**
 
-GET api/v2/get_user/{user_id} Get valid UserName 
-GET api/v2/get_suite/{suite_id} Get the Test Suite with invalid Id 
-POST api/v2/add_suite/{project_id} Adding the new Test Suite to the specific Project
-POST api/v2/add_milestone/{project_id} Adding the new Milestone
-GET api/v2/get_milestone/{milestone_id} Get the Milestone with invalid Id 
+1. GET api/v2/get_user/{user_id} Get valid UserName
+2. GET api/v2/get_suite/{suite_id} Get the Test Suite with invalid Id
+3. POST api/v2/add_suite/{project_id} Adding the new Test Suite to the specific Project
+4. POST api/v2/add_milestone/{project_id} Adding the new Milestone
+5. GET api/v2/get_milestone/{milestone_id} Get the Milestone with invalid Id 
