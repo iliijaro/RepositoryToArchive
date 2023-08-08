@@ -3,8 +3,8 @@
 QA Сhecklist for TestRail website testing: 
 
 
-**UI Tests
-**Positive scenarios:     
+**UI Tests**
+**Positive scenarios:**    
 
 1. TestCases Page    |  Check the boundary values for the Case Title characters
 2. TestCases Page    |  Check the Bug/Story Pop-up after the cursor navigation on it
@@ -13,14 +13,14 @@ QA Сhecklist for TestRail website testing:
 5. TestCases Page    |  Check that the dialogue window "Add Subsection" is opened
 6. AddTestCase Page  |  Check that it is possible to load the attachment to the test case
 
-**Negative scenarios: 
+**Negative scenarios:**
 
 1. Login Page        |  Check that the user can not log in with invalid credentials
 2. Dashboard Page    |  Check that the error message is appeared after entering >250 symbols into the search field
 3. TestCases Page    |  Check that the "Defect Push" window is displayed (But the 'Add Subject" window should be displayed
 
    
-**API Tests:
+**API Tests:**
 
 GET api/v2/get_user/{user_id} Get valid UserName 
 GET api/v2/get_suite/{suite_id} Get the Test Suite with invalid Id 
